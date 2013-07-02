@@ -39,7 +39,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
   vendor/htc/dlx/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
   vendor/htc/dlx/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
-  vendor/htc/dlx/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
   vendor/htc/dlx/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
   vendor/htc/dlx/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
   vendor/htc/dlx/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
@@ -157,7 +156,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/lib/libmpl.so:system/lib/libmpl.so \
   vendor/htc/dlx/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
   vendor/htc/dlx/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
-  vendor/htc/dlx/proprietary/lib/libllvm-arm.so:system/lib/libllvm-arm.so \
   vendor/htc/dlx/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
   vendor/htc/dlx/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
   vendor/htc/dlx/proprietary/lib/libmllite.so:system/lib/libmllite.so \
