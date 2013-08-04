@@ -157,7 +157,15 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/etc/firmware/tzapps.b01:system/etc/firmware/tzapps.b01 \
   vendor/htc/dlx/proprietary/etc/firmware/tzapps.b02:system/etc/firmware/tzapps.b02 \
   vendor/htc/dlx/proprietary/etc/firmware/tzapps.b03:system/etc/firmware/tzapps.b03 \
-  vendor/htc/dlx/proprietary/etc/firmware/tzapps.mdt:system/etc/firmware/tzapps.mdt
+  vendor/htc/dlx/proprietary/etc/firmware/tzapps.mdt:system/etc/firmware/tzapps.mdt \
+  vendor/htc/dlx/proprietary/lib/libQSEEComAPI.so:/system/lib/libQSEEComAPI.so \
+  vendor/htc/dlx/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
+  vendor/htc/dlx/proprietary/vendor/lib/drm/libdrmwvmplugin.so:/system/vendor/lib/drm/libdrmwvmplugin.so \
+  vendor/htc/dlx/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:/system/vendor/lib/mediadrm/libwvdrmengine.so \
+  vendor/htc/dlx/proprietary/vendor/lib/libwvdrm_L1.so:/system/vendor/lib/libwvdrm_L1.so \
+  vendor/htc/dlx/proprietary/vendor/lib/libdrmtime.so:/system/vendor/lib/libdrmtime.so \
+  vendor/htc/dlx/proprietary/vendor/lib/libdrmfs.so:/system/vendor/lib/libdrmfs.so \
+  vendor/htc/dlx/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so
 
 # Proprietary VZW blobs for LTE
 
