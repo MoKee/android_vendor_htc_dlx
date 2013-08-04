@@ -157,9 +157,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/etc/firmware/tzapps.b01:system/etc/firmware/tzapps.b01 \
   vendor/htc/dlx/proprietary/etc/firmware/tzapps.b02:system/etc/firmware/tzapps.b02 \
   vendor/htc/dlx/proprietary/etc/firmware/tzapps.b03:system/etc/firmware/tzapps.b03 \
-  vendor/htc/dlx/proprietary/etc/firmware/tzapps.mdt:system/etc/firmware/tzapps.mdt \
-  vendor/htc/dlx/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
-  vendor/htc/dlx/proprietary/vendor/firmware/mfg.bin:system/vendor/firmware/mfg.bin
+  vendor/htc/dlx/proprietary/etc/firmware/tzapps.mdt:system/etc/firmware/tzapps.mdt
 
 # Proprietary VZW blobs for LTE
 
