@@ -44,12 +44,9 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
   vendor/htc/dlx/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
   vendor/htc/dlx/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-  vendor/htc/dlx/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
   vendor/htc/dlx/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
   vendor/htc/dlx/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-  vendor/htc/dlx/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
   vendor/htc/dlx/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-  vendor/htc/dlx/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
   vendor/htc/dlx/proprietary/lib/libgsl.so:system/lib/libgsl.so \
   vendor/htc/dlx/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/dlx/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
@@ -130,9 +127,8 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/dlx/proprietary/lib/libmpl.so:system/lib/libmpl.so \
   vendor/htc/dlx/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
+  vendor/htc/dlx/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
   vendor/htc/dlx/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
-  vendor/htc/dlx/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
-  vendor/htc/dlx/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
   vendor/htc/dlx/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/dlx/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
   vendor/htc/dlx/proprietary/lib/libext3-fileio.so:system/lib/libext3-fileio.so \
@@ -153,7 +149,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
   vendor/htc/dlx/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
   vendor/htc/dlx/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
-  vendor/htc/dlx/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
   vendor/htc/dlx/proprietary/etc/firmware/hcheck.b00:system/etc/firmware/hcheck.b00 \
   vendor/htc/dlx/proprietary/etc/firmware/hcheck.b01:system/etc/firmware/hcheck.b01 \
   vendor/htc/dlx/proprietary/etc/firmware/hcheck.b02:system/etc/firmware/hcheck.b02 \
@@ -164,8 +159,14 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/etc/firmware/tzapps.b02:system/etc/firmware/tzapps.b02 \
   vendor/htc/dlx/proprietary/etc/firmware/tzapps.b03:system/etc/firmware/tzapps.b03 \
   vendor/htc/dlx/proprietary/etc/firmware/tzapps.mdt:system/etc/firmware/tzapps.mdt \
-  vendor/htc/dlx/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
-  vendor/htc/dlx/proprietary/vendor/firmware/mfg.bin:system/vendor/firmware/mfg.bin
+  vendor/htc/dlx/proprietary/lib/libQSEEComAPI.so:/system/lib/libQSEEComAPI.so \
+  vendor/htc/dlx/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
+  vendor/htc/dlx/proprietary/vendor/lib/drm/libdrmwvmplugin.so:/system/vendor/lib/drm/libdrmwvmplugin.so \
+  vendor/htc/dlx/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:/system/vendor/lib/mediadrm/libwvdrmengine.so \
+  vendor/htc/dlx/proprietary/vendor/lib/libwvdrm_L1.so:/system/vendor/lib/libwvdrm_L1.so \
+  vendor/htc/dlx/proprietary/vendor/lib/libdrmtime.so:/system/vendor/lib/libdrmtime.so \
+  vendor/htc/dlx/proprietary/vendor/lib/libdrmfs.so:/system/vendor/lib/libdrmfs.so \
+  vendor/htc/dlx/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so
 
 # Proprietary VZW blobs for LTE
 
