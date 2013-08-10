@@ -132,7 +132,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/dlx/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
   vendor/htc/dlx/proprietary/lib/libext3-fileio.so:system/lib/libext3-fileio.so \
-  vendor/htc/dlx/proprietary/etc/firmware/BCM4334B0_002.001.013.0767.0794.hcd:system/etc/firmware/BCM4334B0_002.001.013.0767.0794.hcd \
+  vendor/htc/dlx/proprietary/etc/firmware/BCM4334B0_002.001.013.0942.0949.hcd:system/etc/firmware/BCM4334B0_002.001.013.0942.0949.hcd \
   vendor/htc/dlx/proprietary/etc/firmware/fw_bcm4334.bin:system/etc/firmware/fw_bcm4334.bin \
   vendor/htc/dlx/proprietary/etc/firmware/fw_bcm4334_apsta.bin:system/etc/firmware/fw_bcm4334_apsta.bin \
   vendor/htc/dlx/proprietary/etc/firmware/fw_bcm4334_p2p.bin:system/etc/firmware/fw_bcm4334_p2p.bin \
