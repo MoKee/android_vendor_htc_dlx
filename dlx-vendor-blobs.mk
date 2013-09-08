@@ -167,10 +167,3 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/vendor/lib/libdrmtime.so:/system/vendor/lib/libdrmtime.so \
   vendor/htc/dlx/proprietary/vendor/lib/libdrmfs.so:/system/vendor/lib/libdrmfs.so \
   vendor/htc/dlx/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so
-
-# Proprietary VZW blobs for LTE
-
-PRODUCT_PACKAGES += \
-  VZWAPNLib \
-  vzwapnpermission \
-  VZWAPNService
